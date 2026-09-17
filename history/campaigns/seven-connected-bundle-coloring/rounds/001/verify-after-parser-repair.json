@@ -1,0 +1,1 @@
+{"cases": 74, "yes": 49, "no": 25, "recoveries": 112, "source_oracle": "exhaustive list assignments", "target_solver": "5.1.0"}

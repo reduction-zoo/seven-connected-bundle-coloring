@@ -1,0 +1,15 @@
+{
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "fixed_no_checks": [
+    "reported_integer",
+    "negative_integer",
+    "oversized_edge_endpoint",
+    "oversized_color",
+    "nested_array",
+    "truncated_nested_array",
+    "numeric_exponent",
+    "trailing_json"
+  ],
+  "passed": 8,
+  "legal_forward_and_recovery": "passed"
+}

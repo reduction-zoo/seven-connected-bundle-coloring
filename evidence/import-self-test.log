@@ -1,0 +1,3 @@
+Uninstalled 1 package in 2ms
+Installed 1 package in 2ms
+{"source_cases": 10, "target_controls": 2, "faulty_outputs_rejected": 3, "faulty_witnesses_rejected": 2, "solver": "5.1.0"}

@@ -1,0 +1,106 @@
+{
+  "cases": [
+    {
+      "source": {
+        "n": 0,
+        "edges": [],
+        "lists": []
+      },
+      "source_yes": true,
+      "all_target_witnesses_recovered": 3
+    },
+    {
+      "source": {
+        "n": 1,
+        "edges": [],
+        "lists": [
+          []
+        ]
+      },
+      "source_yes": false,
+      "all_target_witnesses_recovered": 0
+    },
+    {
+      "source": {
+        "n": 2,
+        "edges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "lists": [
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      "source_yes": false,
+      "all_target_witnesses_recovered": 0
+    },
+    {
+      "source": {
+        "n": 3,
+        "edges": [],
+        "lists": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      },
+      "source_yes": true,
+      "all_target_witnesses_recovered": 1
+    },
+    {
+      "source": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "lists": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "source_yes": true,
+      "all_target_witnesses_recovered": 12
+    }
+  ],
+  "malformed_failures": [
+    {
+      "name": "large_integer",
+      "length": 5028,
+      "returncode": 1,
+      "last_error": "ValueError: Exceeds the limit (4300 digits) for integer string conversion: value has 5000 digits; use sys.set_int_max_str_digits() to increase the limit"
+    }
+  ]
+}
