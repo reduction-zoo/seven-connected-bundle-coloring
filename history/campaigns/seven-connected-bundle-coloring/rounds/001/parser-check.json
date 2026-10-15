@@ -1,0 +1,1 @@
+{"cases": ["large-positive-count", "large-negative-count", "large-list-color", "deep-array", "truncated-object", "trailing-values", "out-of-range-edge", "boolean-count"], "legal_no_outputs": 8, "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]"}

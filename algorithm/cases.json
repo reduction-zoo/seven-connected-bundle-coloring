@@ -1,0 +1,12 @@
+[
+  {"name":"empty", "source":{"n":0,"edges":[],"lists":[]}, "yes":true},
+  {"name":"free-vertex", "source":{"n":1,"edges":[],"lists":[[1,2,3]]}, "yes":true},
+  {"name":"empty-list", "source":{"n":1,"edges":[],"lists":[[]]}, "yes":false},
+  {"name":"equal-pinned-edge", "source":{"n":2,"edges":[[0,1]],"lists":[[1],[1]]}, "yes":false},
+  {"name":"different-pinned-edge", "source":{"n":2,"edges":[[0,1]],"lists":[[2],[3]]}, "yes":true},
+  {"name":"disconnected-pins", "source":{"n":3,"edges":[],"lists":[[1],[2],[3]]}, "yes":true},
+  {"name":"forced-path", "source":{"n":3,"edges":[[0,1],[1,2]],"lists":[[1],[1,2],[2]]}, "yes":false},
+  {"name":"third-color-path", "source":{"n":3,"edges":[[0,1],[1,2]],"lists":[[1],[1,2,3],[2]]}, "yes":true},
+  {"name":"malformed-cycle", "source":{"n":3,"edges":[[0,1],[1,2],[2,0]],"lists":[[1,2,3],[1,2,3],[1,2,3]]}, "yes":false},
+  {"name":"malformed-value", "source":null, "yes":false}
+]

@@ -1,0 +1,6 @@
+{
+  "palette_vertices": 6,
+  "palette_edges": 6,
+  "exact_off_diagonal_edge_set": true,
+  "interfaces": "Schematic: component interiors and other palette edges explicitly omitted in caption. Two-edge connector and one missing-color edge match proof."
+}
