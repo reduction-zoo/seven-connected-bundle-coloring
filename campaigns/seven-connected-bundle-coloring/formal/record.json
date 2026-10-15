@@ -1,0 +1,7 @@
+{
+  "id": "Q037",
+  "source_definition": "The source gives a simple bipartite graph and, for every vertex, an explicit list contained in {1,2,3}. Its outputs are proper colorings respecting all lists, or NO-SOLUTION; empty lists are allowed.",
+  "target_definition": "The target gives a finite simple bipartite graph H with an ordered partition into seven nonempty connected vertex sets. The first six are singleton bundles of weights 4096, 1024, 256, 64, 16 and 4; the seventh has weight 1. A valid output is a proper coloring by positive integers for which the sum, over bundles, of weight times maximum color is at most 5823, or NO-SOLUTION.",
+  "required_result": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}
